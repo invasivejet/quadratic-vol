@@ -1,8 +1,8 @@
 # Quadratic Volatility Numerics
 
-Quick, lightweight replication of the quadratic normal volatility pricing/spectral logic.
+Lightweight numerical scaffold for quadratic normal volatility pricing and spectral diagnostics.
 
-The goal is not a full paper scaffold. This directory focuses on:
+This repository is intended as a clean handoff point for continuing the numerical work. It focuses on:
 
 - discriminant regimes for $\sigma(x)=\alpha x^2+\beta x+\gamma$;
 - self-adjoint operator spectra and effective potential landscapes;
@@ -13,7 +13,7 @@ The goal is not a full paper scaffold. This directory focuses on:
 ## Run
 
 ```bash
-cd /home/joelasaucedo/Development/jetbundle/quadratic-vol
+pip install -r requirements.txt
 python scripts/run_experiments.py
 ```
 
@@ -24,7 +24,7 @@ Outputs are written to:
 
 Core theory notes are in `theory.md`.
 
-The quick numerical report is in `NUMERICS_REPORT.md`.
+A short numerical handoff report is in `NUMERICS_REPORT.md`.
 
 Current figure outputs:
 
